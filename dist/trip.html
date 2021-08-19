@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="./assets/css/libs.min.css">
+  <link rel="stylesheet" href="./assets/css/all.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./assets/css/app.css">
+
+</head>
+<body class="font-helvetica">
+  <div class="s-page overflow-hidden">
+  <header class="s-header bg-header-purple py-4">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center relative">
+          <div class="flex justify-start items-center">
+            <div class="s-header-toggle w-5  block lg:hidden text-3xl md:mr-6 mr-4 cursor-pointer">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hidden"></i>
+          </div>
+            <div class="s-header-logo mr-6">
+              <a href="/">
+               <img class="mx-auto w-auto" src="./assets/images/logo.jpg" alt="Kindergo Driveclub">
+             </a>
+           </div>
+           <ul class="s-header-list list-none m-0 border border-main-gray-light flex justify-start rounded-lg bg-white items-stretch hidden lg:flex">
+            <li class="lg:border-r border-main-gray-light active lg:rounded-l-lg"><a href="#" class="px-5 py-3.5 block lg:rounded-l-lg hover:bg-header-blue transition duration-500 ease-in-out">Поездки</a></li>
+            <li class="lg:border-r border-main-gray-light"><a href="#" class="px-5 py-3.5 block hover:bg-header-blue transition duration-500 ease-in-out">Расписания</a></li>
+            <li class="lg:border-r border-main-gray-light"><a href="#" class="px-5 py-3.5 block hover:bg-header-blue transition duration-500 ease-in-out">Платежи</a></li>
+            <li class="lg:border-r border-main-gray-light"><a href="#" class="px-5 py-3.5 block hover:bg-header-blue transition duration-500 ease-in-out">Дети</a></li>
+            <li class="rounded-r-lg"><a href="#" class="px-5 py-3.5 block rounded-r-lg hover:bg-header-blue transition duration-500 ease-in-out">Сопровождающие</a></li>
+          </ul>
+        </div>
+        <div class="flex">
+          <div class="s-header-user relative " id="usernav">
+            <a href="#"><img src="./assets/images/avatar.png" alt="img" class="block sm:w-user w-12 max-w-10" width="60"></a>
+            <div class="s-header-user-nav absolute right-0 top-16 bg-header-purple border-main-gray-light border text-main-gray-light w-40 divide-y divide-main-gray-light opacity-0 invisible transition duration-500 ease-in-out" >
+              <ul>
+                <li>
+                  <a href="#" class="block px-2 py-0.5 hover:bg-white transition duration-500 ease-in-out">Личный профиль</a>
+                </li>
+                <li><a href="#popup" class="block px-2 py-0.5 open-popup hover:bg-white transition duration-500 ease-in-out" data-effect="mfp-zoom-in">Изменить пароль</a></li>
+                <li><a href="#" class="block px-2 py-0.5 hover:bg-white transition duration-500 ease-in-out">Выйти</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<div class="s-about py-8 pb-16">
+  <div class="container mx-auto">
+    <div class="border-b border-black pt-4">
+      <h2 class="text-black text-2xl">Информация о поездке</h2>
+      </div>
+      <ul class="s-about-info text-black pt-8 flex flex-wrap">
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">Откуда</div>
+          <div class="w-3/6">ул. Рябиновая, 45</div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">Куда</div>
+          <div class="w-3/6">ул Свободы, 55</div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">Дата отправления</div>
+          <div class="w-3/6">17 июля 2021</div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">Время отправления</div>
+          <div class="w-3/6">8:30</div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">Количество детей</div>
+          <div class="w-3/6">2</div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">Статус</div>
+          <div class="w-3/6">В ожидании</div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">
+            Стоимость <br>парковки (руб)
+          </div>
+          <div class="w-3/6">250</div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">
+            Сопровождающий
+          </div>
+          <div class="w-3/6"><a href="#" class="text-breadcrumb-blue border-b border-transparent hover:border-breadcrumb-blue transition duration-500 ease-in-out">Ольга Петрова</a></div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">
+            Ребенок 1
+          </div>
+          <div class="w-3/6"><a href="#" class="text-breadcrumb-blue border-b border-transparent hover:border-breadcrumb-blue transition duration-500 ease-in-out">Иван Митрохин</a></div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">
+            Ребенок 3
+          </div>
+          <div class="w-3/6"></div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">
+            Ребенок 2
+          </div>
+          <div class="w-3/6"><a href="#" class="text-breadcrumb-blue border-b border-transparent hover:border-breadcrumb-blue transition duration-500 ease-in-out">Ксения Митрохина</a></div>
+        </li>
+        <li class="block sm:flex mb-6 md:w-1/2 w-full">
+          <div class="font-bold w-3/6">
+            Ребенок 4
+          </div>
+          <div class="w-3/6"></div>
+        </li>
+        
+      </ul>
+      <ul class="s-about-info text-black md:w-1/2 w-full">
+        <li class="flex mb-6 hidden">
+          <div class="font-bold w-3/6">Расписание</div>
+          <div class="w-3/6"><a href="#" class="text-breadcrumb-blue border-b border-transparent hover:border-breadcrumb-blue transition duration-500 ease-in-out">г. Москва ул. Рябиновая, 45</a></div>
+        </li>
+        <li class="flex mb-6 hidden">
+          <div class="font-bold w-3/6"><div class="max-w-10">Незапланированное ожидание в точке “Куда” (мин)</div></div>
+          <div class="w-3/6"></div>
+        </li>
+        <li class="flex hidden mb-6">
+          <div class="font-bold w-3/6"><div class="max-w-10">Незапланированное ожидание в точке “Откуда” (мин)</div></div>
+          <div class="w-3/6"></div>
+        </li>
+        
+      </ul>
+      <div class="mt-6">
+            <a href="#" class="s-about-btn js-btn-more group relative inline-flex justify-center  px-4 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-btn-bg font-bold transition duration-500 ease-in-out hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-blue-400 text-sm border border-btn-border">
+              Показать все поля
+          </a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="s-popup  mfp-with-anim mfp-hide max-w-2xl mx-auto bg-white px-8 py-12 relative" id="popup">
+  <div class="s-popup-inner">
+    <button class="mfp-close" title="Close (Esc)" type="button"><i class="fas fa-times"></i></button>
+    <div class="border-b border-black">
+      <h2 class="text-black text-2xl">Изменение пароля</h2>
+    </div>
+    <form action="main.php">
+      <ul class="s-about-info text-black max-w-2xl pt-8">
+        <li class="flex mb-6">
+          <div class="font-bold w-2/5 md:w-3/6">Текущий пароль</div>
+          <div class="w-3/5 md:w-3/6">
+            <div class="input">
+              <input type="password" name="passwcur" class="block border border-nav-blue rounded shadow-md1 outline-none text-main-gray-light px-4 h-8" value="ул. Рябиновая, 45">
+            </div>
+          </div>
+        </li>
+        <li class="flex mb-6">
+          <div class="font-bold w-2/5 md:w-3/6">Новый пароль</div>
+          <div class="w-3/5 md:w-3/6">
+            <div class="input">
+              <input type="password" name="passwnew" class="block border border-nav-blue rounded shadow-md1 outline-none text-main-gray-light px-4 h-8" >
+            </div>
+          </div>
+        </li>
+        <li class="flex">
+          <div class="font-bold w-2/5 md:w-3/6">Повторите новый пароль</div>
+          <div class="w-3/5 md:w-3/6">
+            <div class="input">
+              <input type="password" name="passwrep" class="block border border-nav-blue rounded shadow-md1 outline-none text-main-gray-light px-4 h-8" >
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="s-popup-buttons flex pt-8 justify-between max-w-sm mx-auto">
+        <div>
+          <button type="submit" class="group text-lg relative flex justify-center  px-4 border border-transparent text-sm font-medium rounded-md text-white bg-main-blue-medium font-bold transition duration-500 ease-in-out hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-blue-400  h-8">
+       Сохранить
+      </button>
+        </div>
+        <div>
+          <button type="submit" class="group text-lg relative flex justify-center  px-4 border border-transparent text-sm font-medium rounded-md bg-white border border-main-gray-light font-bold text-main-gray transition duration-500 ease-in-out hover:bg-main-gray-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-main-gray-light h-8 focus:text-white">
+      Отмена
+      </button>
+        </div>
+      </div>
+      
+    </form>
+
+  </div>
+
+</div>
+  <script src="./assets/js/libs.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

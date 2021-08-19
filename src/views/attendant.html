@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="./assets/css/libs.min.css">
+  <link rel="stylesheet" href="./assets/css/all.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./assets/css/app.css">
+
+</head>
+<body class="font-helvetica">
+  <div class="s-page overflow-hidden">
+    <header class="s-header bg-header-purple py-4">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center relative">
+          <div class="flex justify-start items-center">
+            <div class="s-header-toggle w-5  block lg:hidden text-3xl md:mr-6 mr-4 cursor-pointer">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hidden"></i>
+          </div>
+            <div class="s-header-logo mr-6">
+              <a href="/">
+               <img class="mx-auto w-auto" src="./assets/images/logo.jpg" alt="Kindergo Driveclub">
+             </a>
+           </div>
+           <ul class="s-header-list list-none m-0 border border-main-gray-light flex justify-start rounded-lg bg-white items-stretch hidden lg:flex">
+            <li class="lg:border-r border-main-gray-light lg:rounded-l-lg"><a href="#" class="px-5 py-3.5 block lg:rounded-l-lg hover:bg-header-blue transition duration-500 ease-in-out">Поездки</a></li>
+            <li class="lg:border-r border-main-gray-light"><a href="#" class="px-5 py-3.5 block hover:bg-header-blue transition duration-500 ease-in-out">Расписания</a></li>
+            <li class="lg:border-r border-main-gray-light"><a href="#" class="px-5 py-3.5 block hover:bg-header-blue transition duration-500 ease-in-out">Платежи</a></li>
+            <li class="lg:border-r border-main-gray-light"><a href="#" class="px-5 py-3.5 block hover:bg-header-blue transition duration-500 ease-in-out">Дети</a></li>
+            <li class="rounded-r-lg active"><a href="#" class="px-5 py-3.5 block rounded-r-lg hover:bg-header-blue transition duration-500 ease-in-out">Сопровождающие</a></li>
+          </ul>
+        </div>
+        <div class="flex">
+          <div class="s-header-user relative " id="usernav">
+            <a href="#"><img src="./assets/images/avatar.png" alt="img" class="block sm:w-user w-12 max-w-10" width="60"></a>
+            <div class="s-header-user-nav absolute right-0 top-16 bg-header-purple border-main-gray-light border text-main-gray-light w-40 divide-y divide-main-gray-light opacity-0 invisible transition duration-500 ease-in-out" >
+              <ul>
+                <li>
+                  <a href="#" class="block px-2 py-0.5 hover:bg-white transition duration-500 ease-in-out">Личный профиль</a>
+                </li>
+                <li><a href="#popup" class="block px-2 py-0.5 open-popup hover:bg-white transition duration-500 ease-in-out" data-effect="mfp-zoom-in">Изменить пароль</a></li>
+                <li><a href="#" class="block px-2 py-0.5 hover:bg-white transition duration-500 ease-in-out">Выйти</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="s-about py-8">
+    <div class="container mx-auto">
+      <div class="border-b border-black">
+        <h2 class="text-black text-2xl">Информация о сопровождающем</h2>
+      </div>
+      <div class="flex pt-8 justify-start flex-wrap md:flex-nowrap">
+        <div class="w-full lg:w-3/5 md:w-4/5 order-2 md:order-1  pt-6 md:pt-0">
+          <ul class="s-about-info text-black max-w-2xl md:pr-20 text-base">
+            <li class="block sm:flex mb-6">
+              <div class="font-bold w-2/5 md:w-3/6">Имя</div>
+              <div class="w-3/5 md:w-3/6">
+                <div class="text flex items-center">Елена</div>
+              </div>
+            </li>
+            <li class="block sm:flex mb-6">
+              <div class="font-bold w-2/5 md:w-3/6">Фамилия</div>
+              <div class="w-3/5 md:w-3/6">Иванова</div>
+            </li>
+            <li class="block sm:flex mb-6">
+              <div class="font-bold w-2/5 md:w-3/6">Отчество</div>
+              <div class="w-3/5 md:w-3/6">Петровна</div>
+            </li>
+            <li class="block sm:flex mb-6">
+              <div class="font-bold w-2/5 md:w-3/6">Пол</div>
+              <div class="w-3/5 md:w-3/6">Жен</div>
+            </li>
+            <li class="block sm:flex mb-6">
+              <div class="font-bold w-2/5 md:w-3/6">Марка автомобиля</div>
+              <div class="w-3/5 md:w-3/6">Volkswagen Polo</div>
+            </li>
+            <li class="block sm:flex mb-6">
+              <div class="font-bold w-2/5 md:w-3/6">Год автомобиля</div>
+              <div class="w-3/5 md:w-3/6">2010</div>
+            </li>
+            <li class="block sm:flex mb-6">
+              <div class="font-bold w-2/5 md:w-3/6">Анкета</div>
+              <div class="w-3/5 md:w-3/6">
+                <p>Доброжелательная, трудолюбивая, требовательная, ответственная, не конфликтна, без вредных привычек, очень люблю детей.</p>
+                <p class="pt-4">Мама троих детей, двое из них - близнецы. Опыт работы няней в двух многодетных семьях. В обязанности входило: уход и забота о детях, сопровождение на кружки, в поликлинику, приготовление детской еды, уход за гардеробом. Проведение развивающих занятий, гигиенических процедур. </p>
+                <p class="pt-4">С детьми у меня складываются доверительные отношения, основанные на уважении и взаимопонимании.</p>
+
+
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full lg:w-2/5 md:w-1/5 order-1 md:order-2 ">
+          <div class="s-about-avatar pr-4">
+            <div class="font-bold pb-4 text-black">Фотография</div>
+            <img src="./assets/images/attendant.jpg" alt="img" class="block w-full max-w-15">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="s-popup  mfp-with-anim mfp-hide max-w-2xl mx-auto bg-white px-8 py-12 relative" id="popup">
+  <div class="s-popup-inner">
+    <button class="mfp-close" title="Close (Esc)" type="button"><i class="fas fa-times"></i></button>
+    <div class="border-b border-black">
+      <h2 class="text-black text-2xl">Изменение пароля</h2>
+    </div>
+    <form action="main.php">
+      <ul class="s-about-info text-black max-w-2xl pt-8">
+        <li class="flex mb-6">
+          <div class="font-bold w-2/5 md:w-3/6">Текущий пароль</div>
+          <div class="w-3/5 md:w-3/6">
+            <div class="input">
+              <input type="password" name="passwcur" class="block border border-nav-blue rounded shadow-md1 outline-none text-main-gray-light px-4 h-8" value="ул. Рябиновая, 45">
+            </div>
+          </div>
+        </li>
+        <li class="flex mb-6">
+          <div class="font-bold w-2/5 md:w-3/6">Новый пароль</div>
+          <div class="w-3/5 md:w-3/6">
+            <div class="input">
+              <input type="password" name="passwnew" class="block border border-nav-blue rounded shadow-md1 outline-none text-main-gray-light px-4 h-8" >
+            </div>
+          </div>
+        </li>
+        <li class="flex">
+          <div class="font-bold w-2/5 md:w-3/6">Повторите новый пароль</div>
+          <div class="w-3/5 md:w-3/6">
+            <div class="input">
+              <input type="password" name="passwrep" class="block border border-nav-blue rounded shadow-md1 outline-none text-main-gray-light px-4 h-8" >
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="s-popup-buttons flex pt-8 justify-between max-w-sm mx-auto">
+        <div>
+          <button type="submit" class="group text-lg relative flex justify-center  px-4 border border-transparent text-sm font-medium rounded-md text-white bg-main-blue-medium font-bold transition duration-500 ease-in-out hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-blue-400  h-8">
+       Сохранить
+      </button>
+        </div>
+        <div>
+          <button type="submit" class="group text-lg relative flex justify-center  px-4 border border-transparent text-sm font-medium rounded-md bg-white border border-main-gray-light font-bold text-main-gray transition duration-500 ease-in-out hover:bg-main-gray-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-main-gray-light h-8 focus:text-white">
+      Отмена
+      </button>
+        </div>
+      </div>
+      
+    </form>
+
+  </div>
+
+</div>
+
+<script src="./assets/js/libs.min.js"></script>
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
